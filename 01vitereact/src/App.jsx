@@ -1,7 +1,13 @@
+import Gk from "./Gyk"
+
 function App() {
   
   return (
-    <h1>hello in vitereact library | GK</h1>
+    <>
+    <Gk/>
+    <h1>lets learn react</h1>
+    <p>para testing</p>
+    </>
   )
 }
 

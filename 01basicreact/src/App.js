@@ -1,7 +1,12 @@
+import Gk  from './Gyk'
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <>
+    <Gk/>
+  <h1>hello this is garv kadia</h1>
+
+    </>
   );
 }
 

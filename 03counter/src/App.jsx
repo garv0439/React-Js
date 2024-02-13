@@ -9,6 +9,13 @@ function App() {
 
   const addValue = () => {
     setCounter(counter + 1)
+    
+    //for interview purpose ==      prevcounter used for update the previous counter by + 1
+    // setCounter(prevcounter => prevcounter + 1)
+    // setCounter(prevcounter => prevcounter + 1)
+    // setCounter(prevcounter => prevcounter + 1)
+    // setCounter(prevcounter => prevcounter + 1)
+    // setCounter(prevcounter => prevcounter + 1)
 
     if(counter<20){
       setCounter(counter + 1)

@@ -5,16 +5,31 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(50)
+  let [counter, setCounter] = useState(5)
 
   const addValue = () => {
     setCounter(counter + 1)
+
+    if(counter<20){
+      setCounter(counter + 1)
+    }
+    else{
+      setCounter(counter - 0)
+    }
   }
 
   const removeValue = () => {
     setCounter(counter - 1)
 
+    if(counter<=0){
+      setCounter(counter + 0)
+    }
+    else{
+      setCounter(counter - 1)
+    }
   }
+
+ 
 
   return (
     <>

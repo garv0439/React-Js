@@ -1,4 +1,3 @@
-# React-Js
 
 "Passionate about building interactive and dynamic user interfaces, I embarked on my journey with React.js to bring my ideas to life. 
 
